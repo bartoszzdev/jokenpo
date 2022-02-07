@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoKenPo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section class='container'>
+        <div class='main-content'>
+            <p class='subtitle'>Escolha a sua arma:</p>
+            <div class="cards">
+                <ul class='cards-list'>
+                    <li>
+                        <img src='images/pedra.png' class='img-card'>
+                    </li>
+                    <li>
+                        <img src='images/papel.png' class='img-card'>
+                    </li>
+                    <li>
+                        <img src='images/tesoura.png' class='img-card'>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class='battle'>
+            <div class='player player1'>
+                <p>Você:</p>
+                <div class='player1-card'></div>
+            </div>
+            <span>x</span>
+            <div class='player player2'>
+                <p>Oponente:</p>
+                <div class="player2-card"></div>
+            </div>
+        </div>
+
+        <div class='results'>
+            <p class='message'></p>
+            <div class='score'>
+                <p>Vítorias: <span class='wins'>0</span></p>
+                <p>Derrotas: <span class='loses'>0</span></p>
+                <p>Empates: <span class='draws'>0</span></p>
+            </div>
+        </div>
+    </section>
+    
+    <script src='js/script.js'></script>
+</body>
+</html>

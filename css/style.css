@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+.main-content {
+    width: 70vw;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2.2rem;
+    margin: 1rem 0
+}
+
+.cards-list {
+    list-style-type: none;
+}
+
+.cards-list li {
+    display: inline-block;
+    margin: 1rem 3rem;
+}
+
+.img-card {
+    width: 150px;
+    cursor: pointer;
+}
+
+.battle {
+    width: 90vw;
+    max-width: 900px;
+    margin: 2.8rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.battle span {
+    font-size: 5rem
+}
+
+.player {
+    width: 200px;
+    text-align: center;
+}
+
+.results {
+    width: 60vw;
+    margin: 2.5rem auto 0 auto;
+    text-align: center;
+}
+
+.message {
+    font-size: 2.6rem
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 2.4rem;
+}
+
+.score p {
+    margin: 0 3rem;
+}
+
+.score span {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1070px) {
+    .subtitle {
+        font-size: 1.7rem
+    }
+
+    .cards-list li {
+        margin: 0.7rem 2rem
+    }
+
+    .img-card {
+        width: 120px
+    }
+
+    .player1-card img {
+        width: 100px
+    }
+
+    .message {
+        font-size: 2.1rem
+    }
+
+    .score {
+        font-size: 1.9rem
+    }
+
+    .score p {
+        margin: 0 2rem
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .subtitle {
+        font-size: 1.5rem
+    }
+
+    .cards-list li {
+        margin: 0.5rem 1.5rem
+    }
+
+    .battle span {
+        font-size: 4rem;
+    }
+
+    .img-card {
+        width: 100px
+    }
+
+    .message {
+        font-size: 1.8rem
+    }
+
+    .score {
+        font-size: 1.2rem;
+    }
+}
